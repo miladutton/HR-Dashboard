@@ -7,7 +7,7 @@ A sleek, interactive Power BI dashboard visualizing employee demographics, tenur
 - **Slicers:** Department, Gender
 
 ## 🧹 Data Workflow
-- **Source:** Simulated HR Analytics Dataset
+- **Source:** [Simulated HR Employee Dataset](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)  
 - **Cleaned using:** Excel (added `AttritionFlag` using `=IF([@Attrition]="Yes",1,0)`; grouped Tenure, Age, and Salary)
 - **Visualized in:** Power BI Web (gray-blue theme with KPI cards and interactive slicers)
 
